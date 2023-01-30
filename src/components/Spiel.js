@@ -3,9 +3,17 @@ import Aufgaben from './Aufgaben';
 
 function Spiel() {
 
+    
+    
     let allgemeinwissenArray = Aufgaben.allgemeinwissen;
     let freizeitArray = Aufgaben.freizeit;
     let sozialesArray = Aufgaben.soziales;
+    
+    
+    /*let allgemeinwissenArray = ["Hauptstadt von Frankreich", "Bundeskanzler von Deutschland", "7 WW!"];
+    let freizeitArray = ["Sprich mit einer fremden Person", "Zeige dein letztes Foto", "Trink einen Shot mit einer Person deiner Wahl"];
+    let sozialesArray = ["Mache 10 Liegestütze", "Mache 10 Liegestütze", "Mache 10 Liegestütze"]
+    */
 
     const [aufgabe, setAufgabe] = React.useState('Drücke einen Button');
 
