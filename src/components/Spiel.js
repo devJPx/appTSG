@@ -37,7 +37,7 @@ function Spiel() {
         setAufgabe(sozialesArray[randomNumber].aufgabe);
 
         sozialesArray = sozialesArray.filter(element => {
-            return element.aufgabe != sozialesArray[randomNumber].aufgabe;
+            return element.aufgabe !== sozialesArray[randomNumber].aufgabe;
         })
         console.log(sozialesArray)
         /*
