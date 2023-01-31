@@ -1,10 +1,40 @@
 body{
-  display: flex;
-  justify-content: center;
+  background-color: #deedeb;
+  height:max-content;
+}
+
+
+button {
+  background-color: white;
+  border-width: 2px;
+}
+
+.btn_allgemeinwissen{
+  border-color: #ec2931;
+}
+
+.btn_soziales {
+  border-color: #ff7f27;
+}
+
+.btn_freizeit {
+  border-color: #00a2e8;
+}
+
+.header {
+display: flex;
+background-color: white;
+border-width: 2px;
+border-color: black;
+border-radius: 20px;
+border-style: solid;
+width: 300px;
+justify-content: center;
+padding: 10px 5px;
 }
 
 .spiel {
-  padding: 20px;
+  align-items: center;
 }
 
 .spiel_buttons {
@@ -14,7 +44,7 @@ body{
   gap: 20px;
 }
 
-.App-header {
+/*.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -23,5 +53,5 @@ body{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+}*/
 
