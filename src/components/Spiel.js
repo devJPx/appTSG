@@ -1,5 +1,6 @@
 import React from 'react';
 import Aufgaben from './Aufgaben';
+import logo from '../images/60logo.jpg';
 
 function Spiel() {
 
@@ -46,11 +47,11 @@ function Spiel() {
         */
     }
 
-
+//<p>the social game <br></br>-<br></br> das Spiel, das verbindet </p>
     return (
         <div className="spiel">
             <header className='header'>
-                <p>the social game <br></br>-<br></br> das Spiel, das verbindet </p>
+                <img src={logo} className="logo" alt=""></img> 
             </header>
 
             <div className="Aufgabe">

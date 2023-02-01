@@ -7,6 +7,9 @@ body{
 button {
   background-color: white;
   border-width: 2px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: medium;
 }
 
 .btn_allgemeinwissen{
@@ -28,21 +31,39 @@ border-width: 2px;
 border-color: black;
 border-radius: 20px;
 border-style: solid;
-width: 300px;
+/*flex-grow: 1; */
+
+margin: 20px 30px 30px 30px;
 justify-content: center;
 padding: 10px 5px;
 }
 
 .spiel {
+  
   align-items: center;
+  height: 90vh;
+  position: relative;
 }
 
 .spiel_buttons {
   display: flex;
   flex-direction: column;
-  width: 150px;
+  width: 200px; 
   gap: 20px;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
 }
+
+/*.spiel_aufgabe {
+
+}
+*/
 
 /*.App-header {
   background-color: #282c34;
@@ -54,4 +75,5 @@ padding: 10px 5px;
   font-size: calc(10px + 2vmin);
   color: white;
 }*/
+
 
