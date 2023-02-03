@@ -62,22 +62,35 @@ padding: 10px 5px;
 .spiel_loesung {
   font-family: cursive;
   text-align: left;
+  display: grid;
 }
 
-/*.spiel_aufgabe {
-
+.btn_loesung {
+  justify-self: center;
+  border-width: 0px;
+  background-color: transparent;
+  text-decoration:underline;
+  text-decoration-style: dotted ;
+  color:gray;
+  font-family: cursive;
 }
-*/
 
-/*.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}*/
+.spiel_antwortenListe {
+  margin-left: 20px;
+}
+
+.aufgabenText {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:x-large;
+}
+
+li {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+
 
 

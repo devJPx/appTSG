@@ -102,12 +102,12 @@ function Spiel() {
             </div>
             {isAWAufgabe &&
                 <div className='spiel_loesung'>
-                    <ul>
+                    <ul className='spiel_antwortenListe'>
                         <li style={{ color: isAntwort1Richtig ? 'green' : 'black' }} className='A1'> {antwort1}</li>
                         <li style={{ color: isAntwort2Richtig ? 'green' : 'black' }} className='A2'> {antwort2}</li>
                         <li style={{ color: isAntwort3Richtig ? 'green' : 'black' }} className='A3'> {antwort3}</li>
                     </ul>
-                    <button onClick={getAllgemeinWissenLoesung}>Lösung</button>
+                    <button className='btn_loesung' onClick={getAllgemeinWissenLoesung}>Lösung</button>
                 </div>
             }
             <div className="spiel_buttons">
