@@ -39,9 +39,8 @@ padding: 10px 5px;
 }
 
 .spiel {
-  
   align-items: center;
-  height: 90vh;
+  height: 87vh;
   position: relative;
 }
 
@@ -58,6 +57,11 @@ padding: 10px 5px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
+}
+
+.spiel_loesung {
+  font-family: cursive;
+  text-align: left;
 }
 
 /*.spiel_aufgabe {
