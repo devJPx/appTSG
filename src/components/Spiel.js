@@ -22,6 +22,7 @@ function Spiel() {
     const [isAntwort1Richtig, setAntwort1Richtig] = React.useState(false);
     const [isAntwort2Richtig, setAntwort2Richtig] = React.useState(false);
     const [isAntwort3Richtig, setAntwort3Richtig] = React.useState(false);
+    const [isAWAufgabe, setAWAufgabe] = React.useState(false);
 
 
 
@@ -36,6 +37,7 @@ function Spiel() {
         setAntwort1Richtig(false);
         setAntwort2Richtig(false);
         setAntwort3Richtig(false);
+        setAWAufgabe(true);
     }
 
     function getFreizeitAufgabe() {
@@ -45,6 +47,7 @@ function Spiel() {
         setAntwort1Richtig(false);
         setAntwort2Richtig(false);
         setAntwort3Richtig(false);
+        setAWAufgabe(false);
     }
 
     function getSozialeAufgabe() {
@@ -59,6 +62,7 @@ function Spiel() {
         setAntwort1Richtig(false);
         setAntwort2Richtig(false);
         setAntwort3Richtig(false);
+        setAWAufgabe(false);
         /*
         sozialesArray = sozialesArray.filter(item => {
             return item.id != randomNumber;
@@ -96,14 +100,16 @@ function Spiel() {
             <div className="spiel_aufgabe">
                 <h1 className="aufgabenText">{aufgabe}</h1>
             </div>
-            <div className='spiel_loesung'>
-                <ul>
-                    <li style={{color: isAntwort1Richtig ? 'green' : 'black'}} className='A1'> {antwort1}</li>
-                    <li style={{color: isAntwort2Richtig ? 'green' : 'black'}} className='A2'> {antwort2}</li>
-                    <li style={{color: isAntwort3Richtig ? 'green' : 'black'}} className='A3'> {antwort3}</li>
-                </ul>
-                <button onClick={getAllgemeinWissenLoesung}>Lösung</button>
-            </div>
+            {isAWAufgabe &&
+                <div className='spiel_loesung'>
+                    <ul>
+                        <li style={{ color: isAntwort1Richtig ? 'green' : 'black' }} className='A1'> {antwort1}</li>
+                        <li style={{ color: isAntwort2Richtig ? 'green' : 'black' }} className='A2'> {antwort2}</li>
+                        <li style={{ color: isAntwort3Richtig ? 'green' : 'black' }} className='A3'> {antwort3}</li>
+                    </ul>
+                    <button onClick={getAllgemeinWissenLoesung}>Lösung</button>
+                </div>
+            }
             <div className="spiel_buttons">
                 <button className="btn_allgemeinwissen" onClick={getAllgemeinwissenAufgabe} >Allgemeinwissen</button>
                 <button className="btn_freizeit" onClick={getFreizeitAufgabe}>Freizeit</button>
