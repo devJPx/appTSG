@@ -62,7 +62,7 @@ padding: 10px 5px;
 .spiel_loesung {
   font-family: cursive;
   text-align: left;
-  display: grid;
+  display: flex;
 }
 
 .btn_loesung {
