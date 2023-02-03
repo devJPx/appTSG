@@ -7,11 +7,6 @@ function Spiel() {
     let allgemeinwissenArray = Aufgaben.allgemeinwissen;
     let freizeitArray = Aufgaben.freizeit;
     let sozialesArray = Aufgaben.soziales;
-    let liElement1;
-    let liElement2;
-    let liElement3;
-
-    let arrayNumber;
 
 
     /*let allgemeinwissenArray = ["Hauptstadt von Frankreich", "Bundeskanzler von Deutschland", "7 WW!"];
@@ -73,12 +68,12 @@ function Spiel() {
     }
 
     function getAllgemeinWissenLoesung() {
-        if (antwort1 == loesung) {
+        if (antwort1 === loesung) {
             setAntwort1Richtig(true)
             setAntwort2Richtig(false)
             setAntwort3Richtig(false)
             console.log("1 ist richtig!")
-        } else if (antwort2 == loesung) {
+        } else if (antwort2 === loesung) {
             setAntwort1Richtig(false)
             setAntwort2Richtig(true)
             setAntwort3Richtig(false)
