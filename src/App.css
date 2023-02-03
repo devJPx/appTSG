@@ -33,9 +33,10 @@ border-radius: 20px;
 border-style: solid;
 /*flex-grow: 1; */
 
-margin: 20px 30px 30px 30px;
+margin: 20px 30px 10px 30px;
 justify-content: center;
-padding: 10px 5px;
+padding-top: 5px;
+padding-bottom: 5px;
 }
 
 .spiel {
@@ -78,6 +79,7 @@ padding: 10px 5px;
 
 .spiel_antwortenListe {
   margin-left: 20px;
+  margin-top: 1px;
 }
 
 .aufgabenText {
