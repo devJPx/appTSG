@@ -112,7 +112,7 @@ function Spiel() {
             }
             <div className="spiel_buttons">
                 <button className="btn_allgemeinwissen" onClick={getAllgemeinwissenAufgabe} >Allgemeinwissen</button>
-                <button className="btn_freizeit" onClick={getFreizeitAufgabe}>Freizeit</button>
+                <button className="btn_freizeit" onClick={getFreizeitAufgabe}>Sport</button>
                 <button className="btn_soziales" onClick={getSozialeAufgabe}>Soziales</button>
             </div>
         </div>
