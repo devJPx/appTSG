@@ -40,7 +40,7 @@ padding: 10px 5px;
 
 .spiel {
   align-items: center;
-  height: 87vh;
+  height: 85vh;
   position: relative;
 }
 
@@ -73,6 +73,7 @@ padding: 10px 5px;
   text-decoration-style: dotted ;
   color:gray;
   font-family: cursive;
+  font-size: large;
 }
 
 .spiel_antwortenListe {
@@ -83,12 +84,12 @@ padding: 10px 5px;
   margin-left: 20px;
   margin-right: 20px;
   font-family: 'Times New Roman', Times, serif;
-  font-size:x-large;
+  font-size:xx-large;
 }
 
 li {
   font-family: 'Times New Roman', Times, serif;
-  font-size: medium;
+  font-size: x-large;
 }
 
 
