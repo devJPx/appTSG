@@ -74,7 +74,7 @@ padding-bottom: 5px;
   text-decoration-style: dotted ;
   color:gray;
   font-family: cursive;
-  font-size: large;
+  font-size: medium;
 }
 
 .spiel_antwortenListe {
@@ -86,12 +86,12 @@ padding-bottom: 5px;
   margin-left: 5px;
   margin-right: 5px;
   font-family: 'Times New Roman', Times, serif;
-  font-size:x-large;
+  font-size:medium;
 }
 
 li {
   font-family: 'Times New Roman', Times, serif;
-  font-size: x-large;
+  font-size: medium;
 }
 
 

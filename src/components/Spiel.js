@@ -90,7 +90,6 @@ function Spiel() {
         }
     }
 
-//<p>the social game <br></br>-<br></br> das Spiel, das verbindet </p>
     return (
         <div className="spiel">
             <header className='header'>
