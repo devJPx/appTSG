@@ -237,29 +237,125 @@ let fragen = {
         "soziales": [
             {
                 'id': '0',
-                'aufgabe': 'Sprich mit einer fremden Person'
+                'aufgabe': 'Würdest du deine Haare färben? Wenn ja, in welcher Farbe? Wenn nein, warum nicht?'
             },
             {
                 'id': '1',
-                'aufgabe': 'Zeige dein letztes Foto'
+                'aufgabe': 'Findest du Klimagerechtigkeit wichtig? Begründe deine Meinung.'
             },
             {
                 'id': '2',
-                'aufgabe': 'Trink einen Shot mit einer Person deiner Wahl'
+                'aufgabe': 'Wer ist die wichtigste Person in deinem Leben?'
+            },
+            {
+                'id': '3',
+                'aufgabe': 'Was ist dein Lieblingsfach?'
+            },
+            {
+                'id': '4',
+                'aufgabe': 'Wenn du wiedergeboren werden würdest, was wäre dein Tier?'
+            },
+            {
+                'id': '5',
+                'aufgabe': 'Mit Welchem Küchengerät würdest du dich vorstellen wenn du müsstest und warum?'
+            },
+            {
+                'id': '6',
+                'aufgabe': 'Welche drei Dinge nimmst du mit auf eine einsame Insel?'
+            },
+            {
+                'id': '7',
+                'aufgabe': 'Hast du schon Mal Pfefferspray benutzt?'
+            },
+            {
+                'id': '8',
+                'aufgabe': 'Welches Gericht magst du am liebsten?'
+            },
+            {
+                'id': '9',
+                'aufgabe': 'Welche Sportart findest du am Blödesten?'
+            },
+            {
+                'id': '10',
+                'aufgabe': 'Wenn du selbst etwas bauen könntest, was wäre es?'
+            },
+            {
+                'id': '11',
+                'aufgabe': 'Tierversuche ja oder nein?'
+            },
+            {
+                'id': '12',
+                'aufgabe': 'Was wäre deine Superpower?'
+            },
+            {
+                'id': '13',
+                'aufgabe': 'Was ist dein Lieblingsspiel/-buch/-film?'
+            },
+            {
+                'id': '14',
+                'aufgabe' : 'Sind dir Markenklamotten wichtig?'
             }
         ],
         'freizeit': [
             {
                 'id': '0',
-                'aufgabe': 'Mache 10 Liegestütze'
+                'aufgabe': 'Stehe für 30 Sekunden auf einem Bein'
             },
             {
                 'id': '1',
-                'aufgabe': 'Renne 100 Meter'
+                'aufgabe': 'Mache 10 Hampelmänner'
             },
             {
                 'id': '2',
-                'aufgabe': 'Jongliere mit zwei Flaschen'
+                'aufgabe': 'Mache 5 Froschsprünge auf der Stelle'
+            },
+            {
+                'id': '3',
+                'aufgabe': 'Mache 5 Liegestütze'
+            },
+            {
+                'id': '4',
+                'aufgabe': 'Mache 5 Kniebeuge'
+            },
+            {
+                'id': '5',
+                'aufgabe': '10 mal anfersen - laufe dafür auf der Stelle und ziehe deine Fersen (auch Hacken genannt) Richtung Hintern'
+            },
+            {
+                'id': '6',
+                'aufgabe': ' Mache den Kniehebelauf 10 mal - laufe dafür auf der Stelle und hebe deine Knie dabei so hoch du kannst'
+            },
+            {
+                'id': '7',
+                'aufgabe': 'Mache an einer freien Stelle im Raum einen Weitsprung aus dem Stand'
+            },
+            {
+                'id': '8',
+                'aufgabe': 'Hüpfe 5 mal auf der Stelle'
+            },
+            {
+                'id': '9',
+                'aufgabe': 'Mache Armdrücken gegen eine Person deiner Wahl und gewinne'
+            },
+            {
+                'id': '10',
+                'aufgabe': 'Mache einen Daumenkampf mit einer Person deiner Wahl und gewinne - hakt dafür eure Finger (außer den Daumen) ineinander ein und versucht den Daumen der anderen Person für 3 Sekunden festzuhalten'
+            },
+            {
+                'id': '11',
+                'aufgabe': 'Mache mit deinem schwachen Arm Armdrücken mit einer Person deiner Wahl und gewinne '
+            },
+            {
+                'id': '12',
+                'aufgabe': 'Führe deine Hände zum Boden während du stehst und versuche deine Beine durchgestreckt zu halten'
+            },
+            {
+                'id': '13',
+                'aufgabe': 'Kreise deine Arme im stehen 10 mal vorwärts und 10 mal rückwärts'
+            },
+            {
+                'id': '14',
+                'aufgabe': 'Laufe auf den Fersen von einer Seite des Raums zur anderen'
             }
         ]
 };
